@@ -3,7 +3,7 @@ name: Daily CAT Countdown
 on:
   schedule:
     # 03:30 UTC is 09:00 AM IST
-    - cron: '30 3 * * *'
+    - cron: '00 0 * * *'
   workflow_dispatch: # Allows manual trigger execution for testing
 
 jobs:
